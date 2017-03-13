@@ -1,0 +1,50 @@
+Assignment:
+
+-> Create a simple REST NodeJS server to store list of ToDos for users
+-> The assginment needs to be uploaded on Git
+-> Use of some version control tool to commit/save the application
+
+
+Users -> '/users':
+	- create a new user
+	- get list of all users
+		-- Example for format (https://private-49af4-nodejstest.apiary-mock.com/users)
+
+Todos '/Users/{id}/todos'
+	- Get list of Todos for a user
+		-- Example of format (https://private-49af4-nodejstest.apiary-mock.com/users/1/todos)
+	- Create a new todos for a user
+	- Update a todos list item
+	- Delete a todos list item
+
+Save the data in a persistent storage using a NoSQL database like MongoDb	
+	- You can use Mongodb instance running on your local machine
+	- Else can use the below link in your code's connection to point to a hosted mongodb instance
+		-- mongodb://test:test@ds147799.mlab.com:47799/snow_nodejs_mongo_test
+
+User authorisation check logic for user Edit and Delete of a post (Only users who own a todo list item can edit/delete it)
+
+Validations on the request data
+
+Use of NPM to install the dependencies for project (package.json file need to be uploaded too)
+
+Use of a Async logging package for logging
+
+Use a promise library in the code
+
+Import/Require Mocha/Chai and Nodemon packages for Testing and Development related activities. Some test cases using same would be welcome
+
+Run server on port other than default port
+
+How would you run server on HTTPS. Comment code for running on HTTPS
+
+If more details are required, can visit a demo API document page created for the server which needs to be created by Examinee. Doumentation page also has mock server is more details about payload required.
+		-- http://docs.nodejstest.apiary.io/#
+
+
+
+
+
+
+
+https://github.com/Rocky-95/Intellect-Node.js
